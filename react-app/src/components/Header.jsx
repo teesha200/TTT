@@ -27,6 +27,16 @@ function Header(props) {
             "longitude": 72.8777,
             "placeName": "Mumbai, Maharashtra"
         },
+        {
+            "latitude": 22.309425,
+            "longitude": 72.136230,
+            "placeName": "Gujarat"
+        },
+        {
+            "latitude": 26.9124,
+            "longitude": 75.7873,
+            "placeName": "Jaipur, Rajasthan"
+        },
     ]
 
     return (

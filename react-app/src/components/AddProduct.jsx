@@ -71,8 +71,6 @@ function AddProduct() {
                 <label> Product Category </label>
                 <select className="form-control" value={category}
                     onChange={(e) => { setcategory(e.target.value) }}>
-                    <option> Bikes </option>
-                    <option> Mobiles </option>
                     <option> Cloth </option>
                     {
                         categories && categories.length > 0 &&

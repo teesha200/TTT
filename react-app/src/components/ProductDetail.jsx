@@ -60,7 +60,7 @@ function ProductDetail() {
                             SHOW CONTACT DETAILS
                         </button>}
                     {user && user.username && <h4>{user.username}</h4>}
-                    {user && user.mobile && <h3>{user.mobile}</h3>}
+                    {user && user.mobile && <h4>{user.mobile}</h4>}
                     {user && user.email && <h6>{user.email}</h6>}
 
                 </div>
